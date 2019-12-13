@@ -1,0 +1,309 @@
+Gikk inn i C:\Program Files\Git og dobbeltklikket på git-cmd.exe
+
+
+C:\Program Files\Git>cd C:\Users\knnae\Django\Udemy\wordcount-project
+
+C:\Users\knnae\Django\Udemy\wordcount-project>git init
+Initialized empty Git repository in C:/Users/knnae/Django/Udemy/wordcount-project/.git/
+
+C:\Users\knnae\Django\Udemy\wordcount-project>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        db.sqlite3
+        manage.py
+        templates/
+        wordcount/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\knnae\Django\Udemy\wordcount-project>git add -A
+
+C:\Users\knnae\Django\Udemy\wordcount-project>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   db.sqlite3
+        new file:   manage.py
+        new file:   templates/about.html
+        new file:   templates/count.html
+        new file:   templates/home.html
+        new file:   wordcount/__init__.py
+        new file:   wordcount/__pycache__/__init__.cpython-36.pyc
+        new file:   wordcount/__pycache__/settings.cpython-36.pyc
+        new file:   wordcount/__pycache__/urls.cpython-36.pyc
+        new file:   wordcount/__pycache__/views.cpython-36.pyc
+        new file:   wordcount/__pycache__/wsgi.cpython-36.pyc
+        new file:   wordcount/settings.py
+        new file:   wordcount/urls.py
+        new file:   wordcount/views.py
+        new file:   wordcount/wsgi.py
+
+
+C:\Users\knnae\Django\Udemy\wordcount-project>git -m "Dette er første commit"
+unknown option: -m
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+C:\Users\knnae\Django\Udemy\wordcount-project>git commit -m "Dette er første commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'knnae@DESKTOP-UQO7HTL.(none)')
+
+C:\Users\knnae\Django\Udemy\wordcount-project>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   db.sqlite3
+        new file:   manage.py
+        new file:   templates/about.html
+        new file:   templates/count.html
+        new file:   templates/home.html
+        new file:   wordcount/__init__.py
+        new file:   wordcount/__pycache__/__init__.cpython-36.pyc
+        new file:   wordcount/__pycache__/settings.cpython-36.pyc
+        new file:   wordcount/__pycache__/urls.cpython-36.pyc
+        new file:   wordcount/__pycache__/views.cpython-36.pyc
+        new file:   wordcount/__pycache__/wsgi.cpython-36.pyc
+        new file:   wordcount/settings.py
+        new file:   wordcount/urls.py
+        new file:   wordcount/views.py
+        new file:   wordcount/wsgi.py
+
+
+C:\Users\knnae\Django\Udemy\wordcount-project>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   db.sqlite3
+        new file:   manage.py
+        new file:   templates/about.html
+        new file:   templates/count.html
+        new file:   templates/home.html
+        new file:   wordcount/__init__.py
+        new file:   wordcount/__pycache__/__init__.cpython-36.pyc
+        new file:   wordcount/__pycache__/settings.cpython-36.pyc
+        new file:   wordcount/__pycache__/urls.cpython-36.pyc
+        new file:   wordcount/__pycache__/views.cpython-36.pyc
+        new file:   wordcount/__pycache__/wsgi.cpython-36.pyc
+        new file:   wordcount/settings.py
+        new file:   wordcount/urls.py
+        new file:   wordcount/views.py
+        new file:   wordcount/wsgi.py
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   templates/about.html
+
+
+C:\Users\knnae\Django\Udemy\wordcount-project>
+
+
+
+C:\Users\knnae\Django\Udemy\wordcount-project>git add -A
+
+C:\Users\knnae\Django\Udemy\wordcount-project>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   db.sqlite3
+        new file:   manage.py
+        new file:   templates/about.html
+        new file:   templates/count.html
+        new file:   templates/home.html
+        new file:   wordcount/__init__.py
+        new file:   wordcount/__pycache__/__init__.cpython-36.pyc
+        new file:   wordcount/__pycache__/settings.cpython-36.pyc
+        new file:   wordcount/__pycache__/urls.cpython-36.pyc
+        new file:   wordcount/__pycache__/views.cpython-36.pyc
+        new file:   wordcount/__pycache__/wsgi.cpython-36.pyc
+        new file:   wordcount/settings.py
+        new file:   wordcount/urls.py
+        new file:   wordcount/views.py
+        new file:   wordcount/wsgi.py
+
+
+C:\Users\knnae\Django\Udemy\wordcount-project>git commit -m "h1 til h2"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'knnae@DESKTOP-UQO7HTL.(none)')
+
+C:\Users\knnae\Django\Udemy\wordcount-project>git config --global user.mail "knnaesje@online.no"
+
+C:\Users\knnae\Django\Udemy\wordcount-project>git config --global user.name "idaoknn"
+
+C:\Users\knnae\Django\Udemy\wordcount-project>git add -A
+
+C:\Users\knnae\Django\Udemy\wordcount-project>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   db.sqlite3
+        new file:   manage.py
+        new file:   templates/about.html
+        new file:   templates/count.html
+        new file:   templates/home.html
+        new file:   wordcount/__init__.py
+        new file:   wordcount/__pycache__/__init__.cpython-36.pyc
+        new file:   wordcount/__pycache__/settings.cpython-36.pyc
+        new file:   wordcount/__pycache__/urls.cpython-36.pyc
+        new file:   wordcount/__pycache__/views.cpython-36.pyc
+        new file:   wordcount/__pycache__/wsgi.cpython-36.pyc
+        new file:   wordcount/settings.py
+        new file:   wordcount/urls.py
+        new file:   wordcount/views.py
+        new file:   wordcount/wsgi.py
+
+
+C:\Users\knnae\Django\Udemy\wordcount-project>git commit -m "h1 til h2"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'knnae@DESKTOP-UQO7HTL.(none)')
+
+C:\Users\knnae\Django\Udemy\wordcount-project>
+
+git config user.mail "knnaesje@online.no"
+git config user.name "idaoknn"
+
+
+C:\Users\knnae\Django\Udemy\wordcount-project>git config user.mail "knnaesje@online.no"
+
+C:\Users\knnae\Django\Udemy\wordcount-project>git config user.name "idaoknn"
+
+C:\Users\knnae\Django\Udemy\wordcount-project>git add -A
+
+C:\Users\knnae\Django\Udemy\wordcount-project>git commit -m "Dette er første commit"
+[master (root-commit) 72d3e1c] Dette er første commit
+ 15 files changed, 227 insertions(+)
+ create mode 100644 db.sqlite3
+ create mode 100644 manage.py
+ create mode 100644 templates/about.html
+ create mode 100644 templates/count.html
+ create mode 100644 templates/home.html
+ create mode 100644 wordcount/__init__.py
+ create mode 100644 wordcount/__pycache__/__init__.cpython-36.pyc
+ create mode 100644 wordcount/__pycache__/settings.cpython-36.pyc
+ create mode 100644 wordcount/__pycache__/urls.cpython-36.pyc
+ create mode 100644 wordcount/__pycache__/views.cpython-36.pyc
+ create mode 100644 wordcount/__pycache__/wsgi.cpython-36.pyc
+ create mode 100644 wordcount/settings.py
+ create mode 100644 wordcount/urls.py
+ create mode 100644 wordcount/views.py
+ create mode 100644 wordcount/wsgi.py
+
+C:\Users\knnae\Django\Udemy\wordcount-project>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\knnae\Django\Udemy\wordcount-project>git add -A
+
+C:\Users\knnae\Django\Udemy\wordcount-project>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   templates/about.html
+
+
+C:\Users\knnae\Django\Udemy\wordcount-project>git -m "Endret about.html"
+unknown option: -m
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+C:\Users\knnae\Django\Udemy\wordcount-project>git commit -m "Endret about.html"
+[master 38d4aaa] Endret about.html
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+C:\Users\knnae\Django\Udemy\wordcount-project>git remote add origin https://github.com/idaoknn/wordcount-project.git
+
+C:\Users\knnae\Django\Udemy\wordcount-project>git push -u origin master
+Enumerating objects: 31, done.
+Counting objects: 100% (31/31), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (29/29), done.
+Writing objects: 100% (31/31), 7.61 KiB | 974.00 KiB/s, done.
+Total 31 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas: 100% (5/5), done.
+To https://github.com/idaoknn/wordcount-project.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+C:\Users\knnae\Django\Udemy\wordcount-project>
+
+
+For å aktivere virtual environment, skrv => C:\Users\knnae\Django\Tutorial\webDj\env\Scripts\activate
+
+C:\Users\knnae\Django\Udemy\wordcount-project>cd ..
+
+C:\Users\knnae\Django\Udemy>C:\Users\knnae\Django\Tutorial\webDj\env\Scripts\activate
+
+(env) C:\Users\knnae\Django\Udemy>
+
+
+(env) C:\Users\knnae\Django\Udemy>django-admin startproject portfolio
+
+(env) C:\Users\knnae\Django\Udemy>cd portfolo
+The system cannot find the path specified.
+
+(env) C:\Users\knnae\Django\Udemy>cd portfolio
+
+(env) C:\Users\knnae\Django\Udemy\portfolio>python manage runserver
+python: can't open file 'manage': [Errno 2] No such file or directory
+
+(env) C:\Users\knnae\Django\Udemy\portfolio>pip install django==2.0.2
+Requirement already satisfied: django==2.0.2 in c:\users\knnae\anaconda3\lib\site-packages (2.0.2)
+Requirement already satisfied: pytz in c:\users\knnae\anaconda3\lib\site-packages (from django==2.0.2) (2016.10)
+
+(env) C:\Users\knnae\Django\Udemy\portfolio>
+
